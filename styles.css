@@ -45,10 +45,14 @@ div.section {
     clear: left;
 }
 
-img {
+div.imagebox {
+    width: 300px;
+    background-color: #EEEEEE;
+}
+
+div img {
     max-height: 300px;
     max-width: 300px;
-    display: block;
 }
 
 footer {
