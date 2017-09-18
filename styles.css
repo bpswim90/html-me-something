@@ -4,19 +4,34 @@ body {
     width: 60%;
 }
 
-h1 {
+#title {
+    padding-top: 10px;
+    margin: 0px;
     font-size: 40px;
+}
+
+#subtitle {
+    padding-top: 10px;
+    margin: 0px;
+    font-weight: 400;
+    color: #AAAAAA;
+    padding-left: 50px;
 }
 
 header {
     border-bottom: 2px solid black;
 }
 
+h4 {
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
 figure {
     width: 300px;
     margin: 0px;
     float: left;
-    padding-right: 20px;
+    margin-right: 20px;
 }
 
 figcaption {
@@ -25,7 +40,7 @@ figcaption {
     font-size: .8em;
 }
 
-div {
+div.section {
     border-top: 2px solid black;
     clear: left;
 }
@@ -33,6 +48,7 @@ div {
 img {
     max-height: 300px;
     max-width: 300px;
+    display: block;
 }
 
 footer {
